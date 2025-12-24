@@ -5,8 +5,8 @@ const rp = require('request-promise')
 const download = require('download')
 
 // 京东cookie
-//const cookie = process.env.JD_COOKIE
-const cookie = pt_key=AAJpSNduADBJHgDsQmrDxrINzRm0HAM8SEYMuTBXOD6iLmC8Lp_M3PxynE5vqV4D6V-LxaOY92Y;pt_pin=capslock;
+const cookie = process.env.JD_COOKIE
+//const、const、 = pt_key=AAJpSNduADBJHgDsQmrDxrINzRm0HAM8SEYMuTBXOD6iLmC8Lp_M3PxynE5vqV4D6V-LxaOY92Y;pt_pin=capslock;
 // Server酱SCKEY
 const push_key = process.env.PUSH_KEY
 
